@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.listing {
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+.listing h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.listing h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 5px 0;
+}
+.listing p {
+  margin-bottom: 10px;
+}
+.listing .author {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.listing .category {
+  font-size: 14px;
+  font-style: italic;
+}
+.listing .public {
+  color: green;
+}
+.listing .local {
+  color: red;
+}
+.listing .date {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.select_btn {
+  background-color: #0033ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.select_btn:hover {
+  background-color: #3859d2;
+}
