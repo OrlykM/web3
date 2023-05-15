@@ -10,5 +10,7 @@ export const ROUTES = {
     SETTINGS: "/user/settings",
     ERROR: "/error",
     RESETPASSWORD: "/reset",
-    CHANGEPASSWORD: "/reset/password"
+    CHANGEPASSWORD: "/reset/password",
+    EDITPAGE: "/ad/edit",
+    ADMINAPPROVE: "/admin/approve"
 }

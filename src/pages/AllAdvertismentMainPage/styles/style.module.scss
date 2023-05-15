@@ -63,3 +63,29 @@ h1 {
 .select_btn:hover {
   background-color: #3859d2;
 }
+
+.approve_btn {
+  background-color: #1cb623;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.approve_btn:hover {
+  background-color: #47d238;
+}
+
+.close_btn {
+  background-color: #c72424;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.close_btn:hover {
+  background-color: #c72424;
+}

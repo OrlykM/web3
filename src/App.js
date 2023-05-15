@@ -12,6 +12,7 @@ import AllAdvertismentMainPage from "./pages/AllAdvertismentMainPage";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import {ROUTES} from "./routes/routes";
 
+import EditAdvertismentPage from "./pages/EditAdvertismentPage";
 import ResetPassword from "./pages/ResetPasswordPage";
 import Footer from "./Templates/Footer";
 import IsLogined from "./routes/ProtectedRoutes";
@@ -19,6 +20,7 @@ import HeaderLogined from "./Templates/HeaderLogined";
 import HeaderWithLogo from "./Templates/HeaderWithLogo";
 import HeaderNotLogined from "./Templates/HeaderNotLogined";
 import IsLoginedHeader from "./routes/HeaderLogic";
+import ApproveArticlesPage from "./pages/ApproveArticlesPage";
 function App() {
 
   return (
@@ -107,6 +109,21 @@ function App() {
               <SingleAdvertisementPage/>
             </>
           }/>
+          <Route path={ROUTES.EDITPAGE} element={
+            <>
+              <IsLogined />
+              <IsLoginedHeader/>
+              <EditAdvertismentPage/>
+            </>
+          }/>
+          <Route path={ROUTES.ADMINAPPROVE} element={
+            <>
+              <IsLogined />
+              <IsLoginedHeader/>
+              <ApproveArticlesPage/>
+            </>
+          }/>
+
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

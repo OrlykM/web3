@@ -172,11 +172,12 @@ section {
   background-color: #333;
   color: #fff;
   padding: 60px 0;
-  top: 50vh;
+  bottom: 0;
 }
 
 .footer_content {
   display: flex;
+  bottom: 0;
   flex-wrap: wrap;
   justify-content: space-between;
 }

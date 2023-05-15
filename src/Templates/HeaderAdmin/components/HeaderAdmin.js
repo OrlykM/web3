@@ -11,6 +11,10 @@ function HeaderLogined()
                     <ul className="nav justify-content-end">
 
                         <li className="nav-item">
+                            <Link className="nav-link" to={"/admin/approve"}>Approve ads</Link>
+                        </li>
+
+                        <li className="nav-item">
                             <Link className="nav-link" to={"/userslist"}>All users</Link>
                         </li>
 
